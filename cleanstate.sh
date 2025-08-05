@@ -9,20 +9,27 @@ if [ -n "$(git status --porcelain)" ]; then
     exit 1
 fi
 
-# Delete local state branch if it exists, continue if it doesn't
-git branch -D state || echo "No local 'state' branch to delete"
+recreate_branch() {
+    local branch_name=$1
 
-# Delete remote state branch if it exists, continue if it doesn't
-git push origin --delete state || echo "No remote 'state' branch to delete"
+    # Delete local state branch if it exists, continue if it doesn't
+    git branch -D $branch_name || echo "No local '$branch_name' branch to delete"
 
-# Create a new orphan branch
-git switch --orphan state
+    # Delete remote state branch if it exists, continue if it doesn't
+    git push origin --delete $branch_name || echo "No remote '$branch_name' branch to delete"
 
-# Make an empty commit
-git commit --allow-empty -m "Initialize state branch"
+    # Create a new orphan branch
+    git switch --orphan $branch_name
 
-# Push to remote
-git push origin state
+    # Make an empty commit
+    git commit --allow-empty -m "Initialize $branch_name branch"
 
-# Switch back to main
-git checkout main
+    # Push to remote
+    git push origin $branch_name
+
+    # Switch back to main
+    git checkout main
+}
+
+recreate_branch state
+recreate_branch intent
