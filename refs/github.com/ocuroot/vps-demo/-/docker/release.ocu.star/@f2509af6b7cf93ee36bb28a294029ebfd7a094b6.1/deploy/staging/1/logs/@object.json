@@ -1,0 +1,336 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-08-05T12:27:22.211144-04:00",
+      "message": "/opt/homebrew/bin/infisical",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:25.193321-04:00",
+      "message": "Identity added: (stdin) ((stdin))",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:26.430881-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:26.431035-04:00",
+      "message": "WARNING: apt does not have a stable CLI interface. Use with caution in scripts.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:32.840188-04:00",
+      "message": "Hit:1 http://mirrors.digitalocean.com/ubuntu jammy InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:32.840698-04:00",
+      "message": "Hit:2 https://repos-droplet.digitalocean.com/apt/droplet-agent main InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:32.841016-04:00",
+      "message": "Get:3 http://mirrors.digitalocean.com/ubuntu jammy-updates InRelease [128 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:32.843726-04:00",
+      "message": "Get:4 http://mirrors.digitalocean.com/ubuntu jammy-backports InRelease [127 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:37.859405-04:00",
+      "message": "Get:5 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:38.239186-04:00",
+      "message": "Get:6 http://security.ubuntu.com/ubuntu jammy-security/main Translation-en [379 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:46.527159-04:00",
+      "message": "Fetched 763 kB in 12s (63.2 kB/s)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:46.528211-04:00",
+      "message": "Reading package lists...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:48.611011-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:48.636792-04:00",
+      "message": "Building dependency tree...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:49.021182-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:49.021408-04:00",
+      "message": "Reading state information...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:49.057724-04:00",
+      "message": "60 packages can be upgraded. Run 'apt list --upgradable' to see them.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:49.06748-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:49.067609-04:00",
+      "message": "WARNING: apt does not have a stable CLI interface. Use with caution in scripts.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:49.118471-04:00",
+      "message": "Reading package lists...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:49.143376-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:49.151118-04:00",
+      "message": "Building dependency tree...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:49.534521-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:49.535398-04:00",
+      "message": "Reading state information...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:49.535767-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:49.930685-04:00",
+      "message": "docker.io is already the newest version (27.5.1-0ubuntu3~22.04.2).",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:51.071535-04:00",
+      "message": "0 upgraded, 0 newly installed, 0 to remove and 60 not upgraded.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:51.152595-04:00",
+      "message": "Identity added: (stdin) ((stdin))",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:51.888527-04:00",
+      "message": "19032242fcc62bb36a094b88f78927863ca0ecbfdbb1a61996d20f4061b6de04",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:27:51.903795-04:00",
+      "message": "docker: Error response from daemon: driver failed programming external connectivity on endpoint relaxed_mendel (6f59f4083d819d2eaa255b616561597fcef8aa80742355aeafa324aad97fad9e): Bind for 0.0.0.0:80 failed: port is already allocated.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    }
+  ]
+}
