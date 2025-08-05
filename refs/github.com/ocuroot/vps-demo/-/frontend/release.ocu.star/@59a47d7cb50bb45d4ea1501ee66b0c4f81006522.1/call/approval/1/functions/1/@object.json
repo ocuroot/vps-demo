@@ -8,7 +8,7 @@
         "name": "noop",
         "pos": "tasks.ocu.star:48:1"
       },
-      "status": "running",
+      "status": "complete",
       "dependencies": [
         "github.com/ocuroot/vps-demo/-/frontend/release.ocu.star/@59a47d7cb50bb45d4ea1501ee66b0c4f81006522.1/deploy/staging/1/status/complete"
       ],
@@ -21,8 +21,8 @@
     },
     "history": [
       {
-        "time": "2025-08-05T14:40:42.525152-04:00",
-        "status": "running"
+        "time": "2025-08-05T14:40:45.632435-04:00",
+        "status": "complete"
       }
     ]
   }
