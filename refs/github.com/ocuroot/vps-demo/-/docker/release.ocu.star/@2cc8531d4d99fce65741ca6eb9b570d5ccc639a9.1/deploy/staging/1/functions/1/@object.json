@@ -8,7 +8,7 @@
         "name": "_deploy",
         "pos": "release.ocu.star:9:1"
       },
-      "status": "running",
+      "status": "complete",
       "inputs": {
         "environment": {
           "ref": "@/environment/staging",
@@ -32,8 +32,8 @@
     },
     "history": [
       {
-        "time": "2025-08-04T23:31:48.349942-04:00",
-        "status": "running"
+        "time": "2025-08-04T23:32:18.069971-04:00",
+        "status": "complete"
       }
     ]
   }
