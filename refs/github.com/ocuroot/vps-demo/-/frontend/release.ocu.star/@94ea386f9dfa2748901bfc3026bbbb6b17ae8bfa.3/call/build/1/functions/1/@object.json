@@ -8,13 +8,13 @@
         "name": "build",
         "pos": "release.ocu.star:10:1"
       },
-      "status": "running",
+      "status": "complete",
       "inputs": {}
     },
     "history": [
       {
-        "time": "2025-08-05T13:45:23.322977-04:00",
-        "status": "running"
+        "time": "2025-08-05T13:45:26.217081-04:00",
+        "status": "complete"
       }
     ]
   }
