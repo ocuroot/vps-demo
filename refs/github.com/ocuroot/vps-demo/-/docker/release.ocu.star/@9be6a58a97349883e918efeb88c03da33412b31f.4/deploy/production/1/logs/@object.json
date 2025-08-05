@@ -1,0 +1,94 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-08-05T12:46:55.570366-04:00",
+      "message": "/opt/homebrew/bin/infisical",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:46:57.292048-04:00",
+      "message": "Identity added: (stdin) ((stdin))",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:46:58.283273-04:00",
+      "message": "/usr/bin/docker",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:46:58.28492-04:00",
+      "message": "Docker is already installed.",
+      "attributes": {
+        "col": "14",
+        "filename": "release.ocu.star",
+        "line": "23",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:46:58.285166-04:00",
+      "message": "Checking for nginx",
+      "attributes": {
+        "col": "10",
+        "filename": "release.ocu.star",
+        "line": "25",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:46:58.310016-04:00",
+      "message": "Identity added: (stdin) ((stdin))",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:46:58.774758-04:00",
+      "message": "struct(combined_output = \"\", exit_code = 0, stderr = \"Identity added: (stdin) ((stdin))\\n\", stdout = \"\")",
+      "attributes": {
+        "col": "10",
+        "filename": "release.ocu.star",
+        "line": "27",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:46:58.776932-04:00",
+      "message": "Nginx is currently running.",
+      "attributes": {
+        "col": "14",
+        "filename": "release.ocu.star",
+        "line": "32",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    }
+  ]
+}
