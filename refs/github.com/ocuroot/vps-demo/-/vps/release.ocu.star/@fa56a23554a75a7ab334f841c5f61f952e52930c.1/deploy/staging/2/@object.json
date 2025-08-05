@@ -1,10 +1,13 @@
 {
   "kind": "ref",
   "body_type": "models.Work",
+  "links": [
+    "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@/deploy/staging/2"
+  ],
   "body": {
     "type": "down",
     "release": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@fa56a23554a75a7ab334f841c5f61f952e52930c.1",
     "entrypoint": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@fa56a23554a75a7ab334f841c5f61f952e52930c.1/deploy/staging/2/functions/1",
-    "output": null
+    "output": {}
   }
 }

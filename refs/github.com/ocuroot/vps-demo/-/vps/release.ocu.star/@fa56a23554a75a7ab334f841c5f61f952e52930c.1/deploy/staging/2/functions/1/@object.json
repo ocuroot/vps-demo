@@ -8,7 +8,7 @@
         "name": "_destroy",
         "pos": "release.ocu.star:53:1"
       },
-      "status": "running",
+      "status": "complete",
       "inputs": {
         "environment": {
           "ref": "@/environment/staging",
@@ -24,8 +24,8 @@
     },
     "history": [
       {
-        "time": "2025-08-04T23:44:14.002776-04:00",
-        "status": "running"
+        "time": "2025-08-04T23:44:50.315104-04:00",
+        "status": "complete"
       }
     ]
   }
