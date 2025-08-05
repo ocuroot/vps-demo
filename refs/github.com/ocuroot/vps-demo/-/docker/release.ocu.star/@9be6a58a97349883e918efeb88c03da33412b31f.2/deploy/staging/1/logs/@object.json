@@ -1,0 +1,116 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-08-05T12:41:40.099002-04:00",
+      "message": "/opt/homebrew/bin/infisical",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:41:42.749537-04:00",
+      "message": "Identity added: (stdin) ((stdin))",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:41:43.898254-04:00",
+      "message": "/usr/bin/docker",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:41:43.898706-04:00",
+      "message": "Docker is already installed.",
+      "attributes": {
+        "col": "14",
+        "filename": "release.ocu.star",
+        "line": "23",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:41:43.898874-04:00",
+      "message": "Checking for nginx",
+      "attributes": {
+        "col": "10",
+        "filename": "release.ocu.star",
+        "line": "25",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:41:43.91924-04:00",
+      "message": "Identity added: (stdin) ((stdin))",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:41:44.302506-04:00",
+      "message": "struct(combined_output = \"\", exit_code = 1, stderr = \"Identity added: (stdin) ((stdin))\\n\", stdout = \"\")",
+      "attributes": {
+        "col": "10",
+        "filename": "release.ocu.star",
+        "line": "27",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:41:44.329367-04:00",
+      "message": "Identity added: (stdin) ((stdin))",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:41:44.772283-04:00",
+      "message": "85007b7a127f721f7b261db0fcbd833eb70bca54a3f01f80ee28f764ef8af45b",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:41:44.868306-04:00",
+      "message": "docker: Error response from daemon: driver failed programming external connectivity on endpoint eager_newton (66614a649b40c0937270d074094d053ce0a70923c7b0b919d01b37cd246d06a1): Bind for 0.0.0.0:80 failed: port is already allocated.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    }
+  ]
+}
