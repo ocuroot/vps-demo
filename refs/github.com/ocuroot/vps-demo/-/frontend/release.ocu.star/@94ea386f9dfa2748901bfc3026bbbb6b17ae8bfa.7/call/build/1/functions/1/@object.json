@@ -8,13 +8,13 @@
         "name": "build",
         "pos": "tasks.ocu.star:6:1"
       },
-      "status": "running",
+      "status": "complete",
       "inputs": {}
     },
     "history": [
       {
-        "time": "2025-08-05T13:54:10.593222-04:00",
-        "status": "running"
+        "time": "2025-08-05T13:54:13.354016-04:00",
+        "status": "complete"
       }
     ]
   }
