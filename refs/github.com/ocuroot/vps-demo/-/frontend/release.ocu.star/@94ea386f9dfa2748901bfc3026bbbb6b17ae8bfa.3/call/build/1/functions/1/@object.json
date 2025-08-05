@@ -1,0 +1,21 @@
+{
+  "kind": "ref",
+  "body_type": "release.FunctionState",
+  "body": {
+    "current": {
+      "id": "1",
+      "fn": {
+        "name": "build",
+        "pos": "release.ocu.star:10:1"
+      },
+      "status": "pending",
+      "inputs": {}
+    },
+    "history": [
+      {
+        "time": "2025-08-05T13:45:17.720404-04:00",
+        "status": "pending"
+      }
+    ]
+  }
+}
