@@ -1,10 +1,6 @@
 {
   "kind": "ref",
   "body_type": "models.Work",
-  "links": [
-    "github.com/ocuroot/vps-demo/-/frontend/release.ocu.star/@/deploy/production",
-    "github.com/ocuroot/vps-demo/-/frontend/release.ocu.star/@/deploy/production/1"
-  ],
   "body": {
     "type": "",
     "release": "github.com/ocuroot/vps-demo/-/frontend/release.ocu.star/@94ea386f9dfa2748901bfc3026bbbb6b17ae8bfa.7",

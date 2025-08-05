@@ -8,7 +8,7 @@
         "name": "up",
         "pos": "tasks.ocu.star:16:1"
       },
-      "status": "running",
+      "status": "complete",
       "dependencies": [
         "github.com/ocuroot/vps-demo/-/frontend/release.ocu.star/@94ea386f9dfa2748901bfc3026bbbb6b17ae8bfa.7/deploy/staging/1/status/complete"
       ],
@@ -35,8 +35,8 @@
     },
     "history": [
       {
-        "time": "2025-08-05T13:54:31.675199-04:00",
-        "status": "running"
+        "time": "2025-08-05T13:54:38.484481-04:00",
+        "status": "complete"
       }
     ]
   }
