@@ -8,7 +8,7 @@
         "name": "build",
         "pos": "tasks.ocu.star:6:1"
       },
-      "status": "pending",
+      "status": "running",
       "inputs": {
         "version": {
           "ref": "github.com/ocuroot/vps-demo/-/frontend/release.ocu.star/@/call/build#output/version",
@@ -19,8 +19,8 @@
     },
     "history": [
       {
-        "time": "2025-08-05T14:13:53.546614-04:00",
-        "status": "pending"
+        "time": "2025-08-05T14:13:56.011974-04:00",
+        "status": "running"
       }
     ]
   }
