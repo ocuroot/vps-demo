@@ -15,16 +15,19 @@ def _deploy(ctx):
 
     ssh = setup_ssh(hostname=ctx.inputs.ip, private_key=priv)
     # Check if docker is already installed
-    result = ssh.exec("which docker")
+    result = ssh.exec("which docker", continue_on_error=True)
     if result.exit_code != 0:
         # Install docker
         ssh.exec("apt update && apt install docker.io -y")
-
-    result = ssh.exec("docker ps -q -f name=nginx --no-trunc | grep -q .")
-    if result.exit_code != 0:
-        print("Nginx is currently running.")
     else:
+        print("Docker is already installed.")
+
+    result = ssh.exec("docker ps -q -f name=nginx --no-trunc | grep -q .", continue_on_error=True)
+    if result.exit_code != 0:
+        # Run nginx
         ssh.exec("docker run -d -p 80:80 nginx")
+    else:
+        print("Nginx is currently running.")
 
     return done()
 
@@ -36,8 +39,8 @@ def _destroy(ctx):
     priv = infisical.get(secret_name, env=ie)
 
     ssh = setup_ssh(hostname=ctx.inputs.ip, private_key=priv)
-    ssh.exec("docker stop nginx")
-    ssh.exec("apt remove docker.io -y")
+    ssh.exec("docker stop nginx", continue_on_error=True)
+    ssh.exec("apt remove docker.io -y", continue_on_error=True)
     return done()
 
 # Staging deployment phase
