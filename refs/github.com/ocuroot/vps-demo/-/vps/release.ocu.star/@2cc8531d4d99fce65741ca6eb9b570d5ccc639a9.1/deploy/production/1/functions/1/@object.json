@@ -8,7 +8,7 @@
         "name": "_deploy",
         "pos": "release.ocu.star:32:1"
       },
-      "status": "running",
+      "status": "complete",
       "dependencies": [
         "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@2cc8531d4d99fce65741ca6eb9b570d5ccc639a9.1/deploy/staging/1/status/complete"
       ],
@@ -23,12 +23,17 @@
             "name": "production"
           }
         }
+      },
+      "outputs": {
+        "ip": "162.243.98.8",
+        "ssh_private_key_secret": "VPS_DEMO_SSH_PRIVATE_KEY",
+        "ssh_public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDdLClw6kn1J75R7I24gzBKsjBla30zGMH66DxndVnNlemLD+BuTE12WDoEI6b6LI0AAjhe7T6pWdITmohyQMyBmroOzJxosnVugHqVK/OHkxGNi0HdTfZIlO8GPtQ9BIKP70bNlozS3afPRUTvKnIL+fIQB2R1WM/+EPIaacmc0IbJLMD02pevqDW88Xx9pp9dA/MXQKPRjCJLUVEd2pbHbn9V4qEQRR1n15w8hwkJCCC/tlGkVMpgVn6+owYz7hP0YyltLbeEgtAVmbTnroJ5O3/sAzpvpt6vPvU6k1mSdqou5Ek5jC7t3PsNzdvFSYaG+01xitJ/MskzcFHa5U6ndR6ttC16SBE93qa+jlvTxNrSOwCGhEtqiBckctMNdkD5RDMiDEzTOuZxkFVztXWz5j+vzY2G48/ABonFcpebHyl2E26U561/1MKvnLB/rpBdH4bxFENcbJRpi7oShs6I3LbDD7VXzebaaPHrudYJxz06u5jPn/cOmcuFjOgvB0AC31cRtK+YxK1w09TPDuf1jVnkqatCEbQpSkue+oLfMUdIs2THQiS5ZLaCFlR1LwLkCjRnJF1Xu9pWIJ9c4/Ugdj84fQCAhE/OCqoZP8Cm6WUF8qklozqz74A4G5ZjQd9Pet5rlOUv9oBXW2J73p/DVGQsrm+mRLjFF3B9JljCJw=="
       }
     },
     "history": [
       {
-        "time": "2025-08-04T23:19:22.942921-04:00",
-        "status": "running"
+        "time": "2025-08-04T23:20:12.403018-04:00",
+        "status": "complete"
       }
     ]
   }
