@@ -1,0 +1,167 @@
+{
+  "kind": "ref",
+  "body_type": "release.ReleaseInfo",
+  "body": {
+    "commit": "4902581945a695f41d94ead33c09189eecd47a22",
+    "package": {
+      "functions": {
+        "build/tasks.ocu.star:6:1": {
+          "function": {
+            "name": "build",
+            "pos": "tasks.ocu.star:6:1"
+          },
+          "graph": [
+            {
+              "from": "",
+              "to": "build",
+              "annotation": "",
+              "delay": ""
+            }
+          ]
+        },
+        "down/tasks.ocu.star:42:1": {
+          "function": {
+            "name": "down",
+            "pos": "tasks.ocu.star:42:1"
+          },
+          "graph": [
+            {
+              "from": "",
+              "to": "down",
+              "annotation": "",
+              "delay": ""
+            }
+          ]
+        },
+        "noop/tasks.ocu.star:49:1": {
+          "function": {
+            "name": "noop",
+            "pos": "tasks.ocu.star:49:1"
+          },
+          "graph": [
+            {
+              "from": "",
+              "to": "noop",
+              "annotation": "",
+              "delay": ""
+            }
+          ]
+        },
+        "up/tasks.ocu.star:24:1": {
+          "function": {
+            "name": "up",
+            "pos": "tasks.ocu.star:24:1"
+          },
+          "graph": [
+            {
+              "from": "",
+              "to": "up",
+              "annotation": "",
+              "delay": ""
+            }
+          ]
+        }
+      },
+      "phases": [
+        {
+          "name": "build",
+          "work": [
+            {
+              "call": {
+                "name": "build",
+                "inputs": {
+                  "version": {
+                    "ref": "github.com/ocuroot/vps-demo/-/frontend/release.ocu.star/@/call/build#output/version",
+                    "default": 0
+                  }
+                },
+                "fn": {
+                  "name": "build",
+                  "pos": "tasks.ocu.star:6:1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "staging",
+          "work": [
+            {
+              "deploy": {
+                "environment": "staging",
+                "up": {
+                  "name": "up",
+                  "pos": "tasks.ocu.star:24:1"
+                },
+                "down": {
+                  "name": "down",
+                  "pos": "tasks.ocu.star:42:1"
+                },
+                "inputs": {
+                  "environment": {
+                    "ref": "@/environment/staging"
+                  },
+                  "ip": {
+                    "ref": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@/deploy/staging#output/ip"
+                  },
+                  "ssh_private_key_secret": {
+                    "ref": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@/deploy/staging#output/ssh_private_key_secret"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "approval",
+          "work": [
+            {
+              "call": {
+                "name": "approval",
+                "inputs": {
+                  "approved": {
+                    "ref": "github.com/ocuroot/vps-demo/-/frontend/release.ocu.star/@4902581945a695f41d94ead33c09189eecd47a22.1/custom/approved"
+                  }
+                },
+                "fn": {
+                  "name": "noop",
+                  "pos": "tasks.ocu.star:49:1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "production",
+          "work": [
+            {
+              "deploy": {
+                "environment": "production",
+                "up": {
+                  "name": "up",
+                  "pos": "tasks.ocu.star:24:1"
+                },
+                "down": {
+                  "name": "down",
+                  "pos": "tasks.ocu.star:42:1"
+                },
+                "inputs": {
+                  "environment": {
+                    "ref": "@/environment/production"
+                  },
+                  "ip": {
+                    "ref": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@/deploy/production#output/ip"
+                  },
+                  "ssh_private_key_secret": {
+                    "ref": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@/deploy/production#output/ssh_private_key_secret"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "deployments": null
+    }
+  }
+}
