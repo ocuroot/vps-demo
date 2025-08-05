@@ -1,0 +1,1590 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-08-05T16:47:28.769671-04:00",
+      "message": "/opt/homebrew/bin/infisical",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:29.229746-04:00",
+      "message": "/opt/homebrew/bin/terraform",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:29.233462-04:00",
+      "message": "/Users/tom/src/github.com/ocuroot/vps-demo/vps",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:30.231222-04:00",
+      "message": "- Fetching hashicorp/tls 4.1.0 for linux_amd64...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:30.656215-04:00",
+      "message": "- Retrieved hashicorp/tls 4.1.0 for linux_amd64 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:31.101192-04:00",
+      "message": "- Fetching digitalocean/digitalocean 2.36.0 for linux_amd64...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:31.796411-04:00",
+      "message": "- Retrieved digitalocean/digitalocean 2.36.0 for linux_amd64 (signed by a HashiCorp partner, key ID \u001b[0m\u001b[1mF82037E524B9C0E8\u001b[0m\u001b[0m)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:31.954465-04:00",
+      "message": "- Fetching hashicorp/google 6.14.1 for linux_amd64...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:33.302639-04:00",
+      "message": "- Retrieved hashicorp/google 6.14.1 for linux_amd64 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:33.302701-04:00",
+      "message": "- Obtained digitalocean/digitalocean checksums for linux_amd64; All checksums for this platform were already tracked in the lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:33.302746-04:00",
+      "message": "- Obtained hashicorp/google checksums for linux_amd64; All checksums for this platform were already tracked in the lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:33.30278-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:33.302828-04:00",
+      "message": "- Obtained hashicorp/tls checksums for linux_amd64; All checksums for this platform were already tracked in the lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:33.303117-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:33.303149-04:00",
+      "message": "\u001b[1m\u001b[32mSuccess!\u001b[0m \u001b[1mTerraform has validated the lock file and found no need for changes.\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:33.338348-04:00",
+      "message": "\u001b[0m\u001b[1mInitializing the backend...\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:33.668538-04:00",
+      "message": "\u001b[0m\u001b[32m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:33.668601-04:00",
+      "message": "Successfully configured the backend \"gcs\"! Terraform will automatically",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:33.668654-04:00",
+      "message": "use this backend unless the backend configuration changes.\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:34.005662-04:00",
+      "message": "\u001b[0m\u001b[1mInitializing provider plugins...\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:34.005725-04:00",
+      "message": "- Reusing previous version of digitalocean/digitalocean from the dependency lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:34.172733-04:00",
+      "message": "- Reusing previous version of hashicorp/google from the dependency lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:34.262284-04:00",
+      "message": "- Reusing previous version of hashicorp/tls from the dependency lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:34.349064-04:00",
+      "message": "- Using previously-installed digitalocean/digitalocean v2.36.0",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:34.40658-04:00",
+      "message": "- Using previously-installed hashicorp/google v6.14.1",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:34.415767-04:00",
+      "message": "- Using previously-installed hashicorp/tls v4.1.0",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:34.415821-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:34.415844-04:00",
+      "message": "\u001b[0m\u001b[1m\u001b[32mTerraform has been successfully initialized!\u001b[0m\u001b[32m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:34.415869-04:00",
+      "message": "\u001b[0m\u001b[32m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:34.415892-04:00",
+      "message": "You may now begin working with Terraform. Try running \"terraform plan\" to see",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:34.415915-04:00",
+      "message": "any changes that are required for your infrastructure. All Terraform commands",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:34.415938-04:00",
+      "message": "should now work.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:34.41596-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:34.415982-04:00",
+      "message": "If you ever set or change modules or backend configuration for Terraform,",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:34.416005-04:00",
+      "message": "rerun this command to reinitialize your working directory. If you forget, other",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:34.416027-04:00",
+      "message": "commands will detect it and remind you to do so if necessary.\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:36.482517-04:00",
+      "message": "\u001b[0m\u001b[1mtls_private_key.vps: Refreshing state... [id=1a84b57e59885664f950fda7470ded4f1dc30d4e]\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:36.489593-04:00",
+      "message": "\u001b[0m\u001b[1mdigitalocean_ssh_key.default: Refreshing state... [id=49729848]\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:36.489824-04:00",
+      "message": "\u001b[0m\u001b[1mdata.digitalocean_images.available: Reading...\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.555238-04:00",
+      "message": "\u001b[0m\u001b[1mdata.digitalocean_images.available: Read complete after 2s [id=images/17809237311766652626]\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.628183-04:00",
+      "message": "\u001b[0m\u001b[1mdigitalocean_droplet.vps: Refreshing state... [id=511758270]\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.952481-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.952539-04:00",
+      "message": "Terraform used the selected providers to generate the following execution",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.952563-04:00",
+      "message": "plan. Resource actions are indicated with the following symbols:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.95259-04:00",
+      "message": "  \u001b[31m-\u001b[0m destroy\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.952614-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.952636-04:00",
+      "message": "Terraform will perform the following actions:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.952704-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.952736-04:00",
+      "message": "\u001b[1m  # digitalocean_droplet.vps\u001b[0m will be \u001b[1m\u001b[31mdestroyed\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.952767-04:00",
+      "message": "\u001b[0m  \u001b[31m-\u001b[0m\u001b[0m resource \"digitalocean_droplet\" \"vps\" {",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.952797-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m backups              = false \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.952831-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m created_at           = \"2025-08-05T03:46:52Z\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.952876-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m disk                 = 25 \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.952903-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m graceful_shutdown    = false \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.952938-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m id                   = \"511758270\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.952961-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m image                = \"ubuntu-22-04-x64\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.952983-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m ipv4_address         = \"162.243.247.170\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.953014-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m ipv4_address_private = \"10.100.0.3\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.953036-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m ipv6                 = false \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.953062-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m locked               = false \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.953085-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m memory               = 1024 \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.953111-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m monitoring           = false \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.953765-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m name                 = \"vps-staging\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.953813-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m price_hourly         = 0.00893 \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.953839-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m price_monthly        = 6 \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.953864-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m private_networking   = true \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.953886-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m region               = \"nyc2\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.953908-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m resize_disk          = true \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.953933-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m size                 = \"s-1vcpu-1gb\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.953955-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m ssh_keys             = [",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.953979-04:00",
+      "message": "          \u001b[31m-\u001b[0m\u001b[0m \"49729848\",",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954003-04:00",
+      "message": "        ] \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954027-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m status               = \"active\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954049-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m tags                 = [] \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.95408-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m urn                  = \"do:droplet:511758270\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954105-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m vcpus                = 1 \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.95413-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m volume_ids           = [] \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954152-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m vpc_uuid             = \"2e15b6d3-778c-4a3d-8de5-9ee35fd7dd59\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954177-04:00",
+      "message": "        \u001b[90m# (1 unchanged attribute hidden)\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954218-04:00",
+      "message": "    }",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954241-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954263-04:00",
+      "message": "\u001b[1m  # digitalocean_ssh_key.default\u001b[0m will be \u001b[1m\u001b[31mdestroyed\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954287-04:00",
+      "message": "\u001b[0m  \u001b[31m-\u001b[0m\u001b[0m resource \"digitalocean_ssh_key\" \"default\" {",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954314-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m fingerprint = \"46:25:f8:fc:75:10:ec:83:44:c9:3d:88:64:df:02:88\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.95434-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m id          = \"49729848\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954363-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m name        = \"VPS demo staging\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954385-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m public_key  = \u003c\u003c-EOT",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954408-04:00",
+      "message": "            ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDUfJrUr+Z8PlvJW4Vw2wtQyRMHqpHu8623MOH5pY9cBY78mAAezOWQwBB96V2qGMr/wCkVung+JA6m4x9f/Q3O2sPTXB3RkHett81SfZO+Dn0YsurltKw+nD+Xgb7/VjHxzSaykXgfDVq7jeRKSo4syhlJhzJ0EaC8g3EZ1KmGir869YXyPlYMTUN3b0MrMopkeY85Uv+iH6F0s8ZgkivVgFuXRS+XDmiM233jBDh2XNXNTGCaKUZWVuJWUXuURzkNUh0EnunmGwOVexzEN8rc3MnEMCvlTLLuUfgBaveiUEy45hBgbiNffYRYFL2LF2cGqk52lHKTrhY/DMvrkjASCHKHZWNgVssOW2aRUBUflBgWL5kkhsUfMnHiISecXkPJQWKhatEfpcgU9n2yDltp3H4lZTpSDNrbOwSRcSHzExPE0/VPbmj0JNWUvKT73UZ+lBunrpC0xPgC341HG6Q6dInB5SXHEUjeYH3WxWdBhq4YqYyjGq87Jwh12a5DuVtZTPC6N3bU03tgI57fAT6ZleTpv0lenHla+4K717ozqaRjrKiZh2T1fqj5s5U/PzgdQgfp50fVLSTuitd2/31eSq1FFJTewUtdEdWrqR98oj2Ap2VH3T5ZcPvz1iQ7ZTzKgFbey3FFatJUyO/WwouWkE5XW82ZnITfqAknuVxarw==",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954447-04:00",
+      "message": "        EOT \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954474-04:00",
+      "message": "    }",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954504-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954528-04:00",
+      "message": "\u001b[1m  # tls_private_key.vps\u001b[0m will be \u001b[1m\u001b[31mdestroyed\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954558-04:00",
+      "message": "\u001b[0m  \u001b[31m-\u001b[0m\u001b[0m resource \"tls_private_key\" \"vps\" {",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954581-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m algorithm                     = \"RSA\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954604-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m ecdsa_curve                   = \"P224\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954626-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m id                            = \"1a84b57e59885664f950fda7470ded4f1dc30d4e\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954653-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m private_key_openssh           = (sensitive value) \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954677-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m private_key_pem               = (sensitive value) \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954701-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m private_key_pem_pkcs8         = (sensitive value) \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954725-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m public_key_fingerprint_md5    = \"46:25:f8:fc:75:10:ec:83:44:c9:3d:88:64:df:02:88\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.95475-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m public_key_fingerprint_sha256 = \"SHA256:NA/wW9ESa0Ztjx/L/FPC04zFZve+4QPrBR+A8KNVfPs\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954773-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m public_key_openssh            = \u003c\u003c-EOT",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954795-04:00",
+      "message": "            ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDUfJrUr+Z8PlvJW4Vw2wtQyRMHqpHu8623MOH5pY9cBY78mAAezOWQwBB96V2qGMr/wCkVung+JA6m4x9f/Q3O2sPTXB3RkHett81SfZO+Dn0YsurltKw+nD+Xgb7/VjHxzSaykXgfDVq7jeRKSo4syhlJhzJ0EaC8g3EZ1KmGir869YXyPlYMTUN3b0MrMopkeY85Uv+iH6F0s8ZgkivVgFuXRS+XDmiM233jBDh2XNXNTGCaKUZWVuJWUXuURzkNUh0EnunmGwOVexzEN8rc3MnEMCvlTLLuUfgBaveiUEy45hBgbiNffYRYFL2LF2cGqk52lHKTrhY/DMvrkjASCHKHZWNgVssOW2aRUBUflBgWL5kkhsUfMnHiISecXkPJQWKhatEfpcgU9n2yDltp3H4lZTpSDNrbOwSRcSHzExPE0/VPbmj0JNWUvKT73UZ+lBunrpC0xPgC341HG6Q6dInB5SXHEUjeYH3WxWdBhq4YqYyjGq87Jwh12a5DuVtZTPC6N3bU03tgI57fAT6ZleTpv0lenHla+4K717ozqaRjrKiZh2T1fqj5s5U/PzgdQgfp50fVLSTuitd2/31eSq1FFJTewUtdEdWrqR98oj2Ap2VH3T5ZcPvz1iQ7ZTzKgFbey3FFatJUyO/WwouWkE5XW82ZnITfqAknuVxarw==",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954832-04:00",
+      "message": "        EOT \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954866-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m public_key_pem                = \u003c\u003c-EOT",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954894-04:00",
+      "message": "            -----BEGIN PUBLIC KEY-----",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954916-04:00",
+      "message": "            MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA1Hya1K/mfD5byVuFcNsL",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954939-04:00",
+      "message": "            UMkTB6qR7vOttzDh+aWPXAWO/JgAHszlkMAQfeldqhjK/8ApFbp4PiQOpuMfX/0N",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954962-04:00",
+      "message": "            ztrD01wd0ZB3rbfNUn2Tvg59GLLq5bSsPpw/l4G+/1Yx8c0mspF4Hw1au43kSkqO",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.954984-04:00",
+      "message": "            LMoZSYcydBGgvINxGdSphoq/OvWF8j5WDE1Dd29DKzKKZHmPOVL/oh+hdLPGYJIr",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.955007-04:00",
+      "message": "            1YBbl0Uvlw5ojNt94wQ4dlzVzUxgmilGVlbiVlF7lEc5DVIdBJ7p5hsDlXscxDfK",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.955031-04:00",
+      "message": "            3NzJxDAr5Uyy7lH4AWr3olBMuOYQYG4jX32EWBS9ixdnBqpOdpRyk64WPwzL65Iw",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.955054-04:00",
+      "message": "            Eghyh2VjYFbLDltmkVAVH5QYFi+ZJIbFHzJx4iEnnF5DyUFioWrRH6XIFPZ9sg5b",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.955079-04:00",
+      "message": "            adx+JWU6Ugza2zsEkXEh8xMTxNP1T25o9CTVlLyk+91GfpQbp66QtMT4At+NRxuk",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.955101-04:00",
+      "message": "            OnSJweUlxxFI3mB91sVnQYauGKmMoxqvOycIddmuQ7lbWUzwujd21NN7YCOe3wE+",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.955123-04:00",
+      "message": "            mZXk6b9JXpx5WvuCu9e6M6mkY6yomYdk9X6o+bOVPz84HUIH6edH1S0k7orXdv99",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.955145-04:00",
+      "message": "            XkqtRRSU3sFLXRHVq6kffKI9gKdlR90+WXD789YkO2U8yoBW3stxRWrSVMjv1sKL",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.955169-04:00",
+      "message": "            lpBOV1vNmZyE36gJJ7lcWq8CAwEAAQ==",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.955191-04:00",
+      "message": "            -----END PUBLIC KEY-----",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.955212-04:00",
+      "message": "        EOT \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.955237-04:00",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m rsa_bits                      = 4096 \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.95526-04:00",
+      "message": "    }",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.955282-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.955305-04:00",
+      "message": "\u001b[1mPlan:\u001b[0m 0 to add, 0 to change, 3 to destroy.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.955327-04:00",
+      "message": "\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.955349-04:00",
+      "message": "Changes to Outputs:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.955372-04:00",
+      "message": "  \u001b[31m-\u001b[0m\u001b[0m ip          = \"162.243.247.170\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.955396-04:00",
+      "message": "  \u001b[31m-\u001b[0m\u001b[0m private_key = (sensitive value) \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.955422-04:00",
+      "message": "  \u001b[31m-\u001b[0m\u001b[0m public_key  = \u003c\u003c-EOT",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.955444-04:00",
+      "message": "        ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDUfJrUr+Z8PlvJW4Vw2wtQyRMHqpHu8623MOH5pY9cBY78mAAezOWQwBB96V2qGMr/wCkVung+JA6m4x9f/Q3O2sPTXB3RkHett81SfZO+Dn0YsurltKw+nD+Xgb7/VjHxzSaykXgfDVq7jeRKSo4syhlJhzJ0EaC8g3EZ1KmGir869YXyPlYMTUN3b0MrMopkeY85Uv+iH6F0s8ZgkivVgFuXRS+XDmiM233jBDh2XNXNTGCaKUZWVuJWUXuURzkNUh0EnunmGwOVexzEN8rc3MnEMCvlTLLuUfgBaveiUEy45hBgbiNffYRYFL2LF2cGqk52lHKTrhY/DMvrkjASCHKHZWNgVssOW2aRUBUflBgWL5kkhsUfMnHiISecXkPJQWKhatEfpcgU9n2yDltp3H4lZTpSDNrbOwSRcSHzExPE0/VPbmj0JNWUvKT73UZ+lBunrpC0xPgC341HG6Q6dInB5SXHEUjeYH3WxWdBhq4YqYyjGq87Jwh12a5DuVtZTPC6N3bU03tgI57fAT6ZleTpv0lenHla+4K717ozqaRjrKiZh2T1fqj5s5U/PzgdQgfp50fVLSTuitd2/31eSq1FFJTewUtdEdWrqR98oj2Ap2VH3T5ZcPvz1iQ7ZTzKgFbey3FFatJUyO/WwouWkE5XW82ZnITfqAknuVxarw==",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:37.955479-04:00",
+      "message": "    EOT \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:38.009407-04:00",
+      "message": "\u001b[0m\u001b[1mdigitalocean_droplet.vps: Destroying... [id=511758270]\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:48.0103-04:00",
+      "message": "\u001b[0m\u001b[1mdigitalocean_droplet.vps: Still destroying... [id=511758270, 10s elapsed]\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:58.011758-04:00",
+      "message": "\u001b[0m\u001b[1mdigitalocean_droplet.vps: Still destroying... [id=511758270, 20s elapsed]\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:59.682551-04:00",
+      "message": "\u001b[0m\u001b[1mdigitalocean_droplet.vps: Destruction complete after 22s\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:59.686132-04:00",
+      "message": "\u001b[0m\u001b[1mdigitalocean_ssh_key.default: Destroying... [id=49729848]\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:59.854779-04:00",
+      "message": "\u001b[0m\u001b[1mdigitalocean_ssh_key.default: Destruction complete after 0s\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:59.857607-04:00",
+      "message": "\u001b[0m\u001b[1mtls_private_key.vps: Destroying... [id=1a84b57e59885664f950fda7470ded4f1dc30d4e]\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:47:59.858048-04:00",
+      "message": "\u001b[0m\u001b[1mtls_private_key.vps: Destruction complete after 0s\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:48:00.264851-04:00",
+      "message": "\u001b[0m\u001b[1m\u001b[32m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:48:00.265304-04:00",
+      "message": "Destroy complete! Resources: 3 destroyed.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:48:00.265361-04:00",
+      "message": "\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:48:00.873563-04:00",
+      "message": "Failed to delete secret",
+      "attributes": {
+        "col": "14",
+        "filename": "release.ocu.star",
+        "line": "63",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:48:00.873727-04:00",
+      "message": "Unable to complete your delete request\n",
+      "attributes": {
+        "col": "14",
+        "filename": "release.ocu.star",
+        "line": "64",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    }
+  ]
+}
