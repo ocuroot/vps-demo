@@ -17,7 +17,8 @@ def build(ctx):
     return done(
         outputs={
             "version": version,
-        }
+        },
+        tags=["v{}".format(version)],
     )
 
 def up(ctx):
@@ -43,4 +44,7 @@ def down(ctx):
     ssh.exec("ufw delete allow 8081", continue_on_error=True)
     ssh.exec("pkill frontend", continue_on_error=True)
     ssh.exec("rm /usr/local/bin/frontend", continue_on_error=True)
+    return done()
+
+def noop(ctx):
     return done()

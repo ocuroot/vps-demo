@@ -1,6 +1,6 @@
 ocuroot("0.3.0")
 
-load("tasks.ocu.star", "build", "up", "down")
+load("tasks.ocu.star", "build", "up", "down", "noop")
 
 phase(
     name="build",
@@ -31,6 +31,19 @@ phase(
                 "ip": ref("./-/vps/release.ocu.star/@/deploy/{}#output/ip".format(environment.name)),
             }
         ) for environment in envs if environment.attributes["type"] == "staging"
+    ],
+)
+
+phase(
+    name="approval",
+    work=[
+        call(
+            noop,
+            name="approval",
+            inputs={
+                "approved": input("./custom/approved"),
+            }
+        )
     ],
 )
 
