@@ -8,13 +8,13 @@
         "name": "review",
         "pos": "release.ocu.star:13:1"
       },
-      "status": "pending",
+      "status": "running",
       "inputs": {}
     },
     "history": [
       {
-        "time": "2025-08-04T23:39:28.877088-04:00",
-        "status": "pending"
+        "time": "2025-08-04T23:39:31.454313-04:00",
+        "status": "running"
       }
     ]
   }
