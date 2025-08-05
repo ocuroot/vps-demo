@@ -12,13 +12,14 @@
       "inputs": {
         "version": {
           "ref": "github.com/ocuroot/vps-demo/-/frontend/release.ocu.star/@/call/build#output/version",
-          "default": 0
+          "default": 0,
+          "value": 3
         }
       }
     },
     "history": [
       {
-        "time": "2025-08-05T14:15:42.484995-04:00",
+        "time": "2025-08-05T14:15:45.301086-04:00",
         "status": "pending"
       }
     ]
