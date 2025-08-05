@@ -14,13 +14,14 @@
       ],
       "inputs": {
         "approved": {
-          "ref": "github.com/ocuroot/vps-demo/-/frontend/release.ocu.star/@4902581945a695f41d94ead33c09189eecd47a22.1/custom/approved"
+          "ref": "github.com/ocuroot/vps-demo/-/frontend/release.ocu.star/@4902581945a695f41d94ead33c09189eecd47a22.1/custom/approved",
+          "value": "1"
         }
       }
     },
     "history": [
       {
-        "time": "2025-08-05T14:43:44.659043-04:00",
+        "time": "2025-08-05T14:46:39.371021-04:00",
         "status": "pending"
       }
     ]
