@@ -1,0 +1,1337 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-08-04T23:33:42.918042-04:00",
+      "message": "/opt/homebrew/bin/infisical",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:43.941641-04:00",
+      "message": "Identity added: (stdin) ((stdin))",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:44.069184-04:00",
+      "message": "Warning: Permanently added '162.243.98.8' (ED25519) to the list of known hosts.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:45.321731-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:45.327522-04:00",
+      "message": "WARNING: apt does not have a stable CLI interface. Use with caution in scripts.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:51.916989-04:00",
+      "message": "Hit:1 http://security.ubuntu.com/ubuntu jammy-security InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:51.917523-04:00",
+      "message": "Hit:2 http://mirrors.digitalocean.com/ubuntu jammy InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:51.920435-04:00",
+      "message": "Hit:3 http://mirrors.digitalocean.com/ubuntu jammy-updates InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:51.94859-04:00",
+      "message": "Hit:4 http://mirrors.digitalocean.com/ubuntu jammy-backports InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:51.970883-04:00",
+      "message": "Hit:5 https://repos-droplet.digitalocean.com/apt/droplet-agent main InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:52.019371-04:00",
+      "message": "Get:6 https://dl.cloudsmith.io/public/caddy/stable/deb/debian any-version InRelease [8266 B]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:52.723179-04:00",
+      "message": "Fetched 8266 B in 7s (1186 B/s)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:52.723916-04:00",
+      "message": "Reading package lists...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:54.443341-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:54.771083-04:00",
+      "message": "Building dependency tree...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:54.913439-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:54.913924-04:00",
+      "message": "Reading state information...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:54.952697-04:00",
+      "message": "3 packages can be upgraded. Run 'apt list --upgradable' to see them.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:54.96092-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:54.961229-04:00",
+      "message": "WARNING: ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:54.964269-04:00",
+      "message": "apt does not have a stable CLI interface. Use with caution in scripts.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:55.026847-04:00",
+      "message": "Reading package lists...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:55.051603-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:55.065111-04:00",
+      "message": "Building dependency tree...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:55.524551-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:55.525236-04:00",
+      "message": "Reading state information...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:56.00734-04:00",
+      "message": "The following additional packages will be installed:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:56.010641-04:00",
+      "message": "  bridge-utils containerd dns-root-data dnsmasq-base pigz runc ubuntu-fan",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:56.013122-04:00",
+      "message": "Suggested packages:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:56.013221-04:00",
+      "message": "  ifupdown aufs-tools cgroupfs-mount | cgroup-lite debootstrap docker-buildx",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:56.013425-04:00",
+      "message": "  docker-compose-v2 docker-doc rinse zfs-fuse | zfsutils",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:56.187859-04:00",
+      "message": "The following NEW packages will be installed:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:56.194532-04:00",
+      "message": "  bridge-utils containerd dns-root-data dnsmasq-base docker.io pigz runc",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:56.19466-04:00",
+      "message": "  ubuntu-fan",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:56.268095-04:00",
+      "message": "0 upgraded, 8 newly installed, 0 to remove and 3 not upgraded.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:56.350944-04:00",
+      "message": "Need to get 79.6 MB of archives.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:56.351102-04:00",
+      "message": "After this operation, 300 MB of additional disk space will be used.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:56.351445-04:00",
+      "message": "Get:1 http://mirrors.digitalocean.com/ubuntu jammy/universe amd64 pigz amd64 2.6-1 [63.6 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:56.375073-04:00",
+      "message": "Get:2 http://mirrors.digitalocean.com/ubuntu jammy/main amd64 bridge-utils amd64 1.7-1ubuntu3 [34.4 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:56.393425-04:00",
+      "message": "Get:3 http://mirrors.digitalocean.com/ubuntu jammy-updates/main amd64 runc amd64 1.2.5-0ubuntu1~22.04.1 [8093 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:56.509383-04:00",
+      "message": "Get:4 http://mirrors.digitalocean.com/ubuntu jammy-updates/main amd64 containerd amd64 1.7.27-0ubuntu1~22.04.1 [37.8 MB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:57.012258-04:00",
+      "message": "Get:5 http://mirrors.digitalocean.com/ubuntu jammy-updates/main amd64 dns-root-data all 2024071801~ubuntu0.22.04.1 [6132 B]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:57.012795-04:00",
+      "message": "Get:6 http://mirrors.digitalocean.com/ubuntu jammy-updates/main amd64 dnsmasq-base amd64 2.90-0ubuntu0.22.04.1 [374 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:57.026403-04:00",
+      "message": "Get:7 http://mirrors.digitalocean.com/ubuntu jammy-updates/universe amd64 docker.io amd64 27.5.1-0ubuntu3~22.04.2 [33.3 MB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:57.534837-04:00",
+      "message": "Get:8 http://mirrors.digitalocean.com/ubuntu jammy/universe amd64 ubuntu-fan all 0.12.16 [35.2 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:57.944182-04:00",
+      "message": "Fetched 79.6 MB in 1s (65.9 MB/s)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:57.944182-04:00",
+      "message": "debconf: unable to initialize frontend: Dialog",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:57.945237-04:00",
+      "message": "debconf: (TERM is not set, so the dialog frontend is not usable.)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:57.945568-04:00",
+      "message": "debconf: falling back to frontend: Readline",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:57.946736-04:00",
+      "message": "debconf: unable to initialize frontend: Readline",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:57.947116-04:00",
+      "message": "debconf: (This frontend requires a controlling tty.)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:57.947394-04:00",
+      "message": "debconf: falling back to frontend: Teletype",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:57.947693-04:00",
+      "message": "dpkg-preconfigure: unable to re-open stdin: ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:57.950532-04:00",
+      "message": "Selecting previously unselected package pigz.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:57.950756-04:00",
+      "message": "(Reading database ... \r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:57.953406-04:00",
+      "message": "(Reading database ... 5%\r(Reading database ... 10%\r(Reading database ... 15%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:57.955458-04:00",
+      "message": "(Reading database ... 20%\r(Reading database ... 25%\r(Reading database ... 30%\r(Reading database ... 35%\r(Reading database ... 40%\r(Reading database ... 45%\r(Reading database ... 50%\r(Reading database ... 55%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:57.970242-04:00",
+      "message": "(Reading database ... 60%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:57.98398-04:00",
+      "message": "(Reading database ... 65%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:57.994029-04:00",
+      "message": "(Reading database ... 70%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:58.006-04:00",
+      "message": "(Reading database ... 75%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:58.018571-04:00",
+      "message": "(Reading database ... 80%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:58.027565-04:00",
+      "message": "(Reading database ... 85%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:58.038784-04:00",
+      "message": "(Reading database ... 90%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:58.063587-04:00",
+      "message": "(Reading database ... 95%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:58.113561-04:00",
+      "message": "(Reading database ... 100%\r(Reading database ... 94271 files and directories currently installed.)\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:58.115534-04:00",
+      "message": "Preparing to unpack .../0-pigz_2.6-1_amd64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:58.117492-04:00",
+      "message": "Unpacking pigz (2.6-1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:58.158346-04:00",
+      "message": "Selecting previously unselected package bridge-utils.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:58.169672-04:00",
+      "message": "Preparing to unpack .../1-bridge-utils_1.7-1ubuntu3_amd64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:58.171612-04:00",
+      "message": "Unpacking bridge-utils (1.7-1ubuntu3) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:58.210038-04:00",
+      "message": "Selecting previously unselected package runc.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:58.219749-04:00",
+      "message": "Preparing to unpack .../2-runc_1.2.5-0ubuntu1~22.04.1_amd64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:58.221605-04:00",
+      "message": "Unpacking runc (1.2.5-0ubuntu1~22.04.1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:58.559246-04:00",
+      "message": "Selecting previously unselected package containerd.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:58.560207-04:00",
+      "message": "Preparing to unpack .../3-containerd_1.7.27-0ubuntu1~22.04.1_amd64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:58.562628-04:00",
+      "message": "Unpacking containerd (1.7.27-0ubuntu1~22.04.1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:59.454719-04:00",
+      "message": "Selecting previously unselected package dns-root-data.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:59.773863-04:00",
+      "message": "Preparing to unpack .../4-dns-root-data_2024071801~ubuntu0.22.04.1_all.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:59.774062-04:00",
+      "message": "Unpacking dns-root-data (2024071801~ubuntu0.22.04.1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:59.774387-04:00",
+      "message": "Selecting previously unselected package dnsmasq-base.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:59.774582-04:00",
+      "message": "Preparing to unpack .../5-dnsmasq-base_2.90-0ubuntu0.22.04.1_amd64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:59.774774-04:00",
+      "message": "Unpacking dnsmasq-base (2.90-0ubuntu0.22.04.1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:59.774963-04:00",
+      "message": "Selecting previously unselected package docker.io.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:59.775171-04:00",
+      "message": "Preparing to unpack .../6-docker.io_27.5.1-0ubuntu3~22.04.2_amd64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:33:59.775409-04:00",
+      "message": "Unpacking docker.io (27.5.1-0ubuntu3~22.04.2) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:00.507598-04:00",
+      "message": "Selecting previously unselected package ubuntu-fan.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:00.517192-04:00",
+      "message": "Preparing to unpack .../7-ubuntu-fan_0.12.16_all.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:00.524459-04:00",
+      "message": "Unpacking ubuntu-fan (0.12.16) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:00.566096-04:00",
+      "message": "Setting up dnsmasq-base (2.90-0ubuntu0.22.04.1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:00.687702-04:00",
+      "message": "Setting up runc (1.2.5-0ubuntu1~22.04.1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:00.690173-04:00",
+      "message": "Setting up dns-root-data (2024071801~ubuntu0.22.04.1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:00.694424-04:00",
+      "message": "Setting up bridge-utils (1.7-1ubuntu3) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:00.820195-04:00",
+      "message": "debconf: unable to initialize frontend: Dialog\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:00.821117-04:00",
+      "message": "debconf: (TERM is not set, so the dialog frontend is not usable.)\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:00.822588-04:00",
+      "message": "debconf: falling back to frontend: Readline\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:00.851965-04:00",
+      "message": "Setting up pigz (2.6-1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:00.852132-04:00",
+      "message": "Setting up containerd (1.7.27-0ubuntu1~22.04.1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:01.001734-04:00",
+      "message": "Created symlink /etc/systemd/system/multi-user.target.wants/containerd.service → /lib/systemd/system/containerd.service.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:02.245391-04:00",
+      "message": "Setting up ubuntu-fan (0.12.16) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:02.324199-04:00",
+      "message": "Created symlink /etc/systemd/system/multi-user.target.wants/ubuntu-fan.service → /lib/systemd/system/ubuntu-fan.service.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:03.315756-04:00",
+      "message": "Setting up docker.io (27.5.1-0ubuntu3~22.04.2) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:03.432833-04:00",
+      "message": "debconf: unable to initialize frontend: Dialog\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:03.433281-04:00",
+      "message": "debconf: (TERM is not set, so the dialog frontend is not usable.)\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:03.434625-04:00",
+      "message": "debconf: falling back to frontend: Readline\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:03.504377-04:00",
+      "message": "Adding group `docker' (GID 121) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:03.512368-04:00",
+      "message": "Done.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:03.652595-04:00",
+      "message": "Created symlink /etc/systemd/system/multi-user.target.wants/docker.service → /lib/systemd/system/docker.service.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:04.201367-04:00",
+      "message": "Created symlink /etc/systemd/system/sockets.target.wants/docker.socket → /lib/systemd/system/docker.socket.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:05.626228-04:00",
+      "message": "Processing triggers for dbus (1.12.20-2ubuntu4.1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:05.626757-04:00",
+      "message": "Processing triggers for man-db (2.10.2-1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:06.936034-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:06.936252-04:00",
+      "message": "Running kernel seems to be up-to-date.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:06.936778-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:06.937009-04:00",
+      "message": "No services need to be restarted.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:06.937362-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:06.937558-04:00",
+      "message": "No containers need to be restarted.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:06.937825-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:06.938029-04:00",
+      "message": "No user sessions are running outdated binaries.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:06.938303-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:34:06.938497-04:00",
+      "message": "No VM guests are running outdated hypervisor (qemu) binaries on this host.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    }
+  ]
+}
