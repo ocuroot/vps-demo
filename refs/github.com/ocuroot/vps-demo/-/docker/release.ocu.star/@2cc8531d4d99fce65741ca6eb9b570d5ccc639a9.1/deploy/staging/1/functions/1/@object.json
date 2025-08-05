@@ -11,19 +11,28 @@
       "status": "pending",
       "inputs": {
         "environment": {
-          "ref": "@/environment/staging"
+          "ref": "@/environment/staging",
+          "value": {
+            "attributes": {
+              "infisical_env": "staging",
+              "type": "staging"
+            },
+            "name": "staging"
+          }
         },
         "ip": {
-          "ref": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@/deploy/staging#output/ip"
+          "ref": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@/deploy/staging#output/ip",
+          "value": "192.241.248.130"
         },
         "ssh_private_key_secret": {
-          "ref": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@/deploy/staging#output/ssh_private_key_secret"
+          "ref": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@/deploy/staging#output/ssh_private_key_secret",
+          "value": "VPS_DEMO_SSH_PRIVATE_KEY"
         }
       }
     },
     "history": [
       {
-        "time": "2025-08-04T23:31:42.982604-04:00",
+        "time": "2025-08-04T23:31:45.596429-04:00",
         "status": "pending"
       }
     ]
