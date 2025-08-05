@@ -1,0 +1,11 @@
+{
+  "kind": "ref",
+  "body_type": "sdk.Environment",
+  "body": {
+    "name": "production",
+    "attributes": {
+      "infisical_env": "prod",
+      "type": "prod"
+    }
+  }
+}
