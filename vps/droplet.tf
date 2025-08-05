@@ -1,5 +1,5 @@
 resource "digitalocean_droplet" "vps" {
-  image   = data.digitalocean_images.available.images[0].slug
+  image   = "ubuntu-22-04-x64"
   name    = "vps-${var.environment}"
   region  = "nyc2"
   size    = "s-1vcpu-1gb"
@@ -12,21 +12,6 @@ resource "digitalocean_droplet" "vps" {
 resource "digitalocean_ssh_key" "default" {
   name       = "VPS demo ${var.environment}"
   public_key = tls_private_key.vps.public_key_openssh
-}
-
-data "digitalocean_images" "available" {
-  filter {
-    key    = "distribution"
-    values = ["Ubuntu"]
-  }
-  filter {
-    key    = "regions"
-    values = ["nyc3"]
-  }
-  sort {
-    key       = "created"
-    direction = "desc"
-  }
 }
 
 resource "tls_private_key" "vps" {

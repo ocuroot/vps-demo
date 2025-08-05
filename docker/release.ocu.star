@@ -15,11 +15,20 @@ def _deploy(ctx):
 
     ssh = setup_ssh(hostname=ctx.inputs.ip, private_key=priv)
     ssh.exec("apt update && apt install docker.io -y")
+    ssh.exec("docker run -d -p 80:80 nginx")
 
     return done()
 
 def _destroy(ctx):
+    infisical = setup_infisical(project_id="f7b78b62-9edc-4b41-bc87-37c80b350c10")
+    ie = ctx.inputs.environment["attributes"]["infisical_env"]
+    
+    secret_name = ctx.inputs.ssh_private_key_secret
+    priv = infisical.get(secret_name, env=ie)
 
+    ssh = setup_ssh(hostname=ctx.inputs.ip, private_key=priv)
+    ssh.exec("docker stop nginx")
+    ssh.exec("apt remove docker.io -y")
     return done()
 
 # Staging deployment phase
