@@ -1,0 +1,11 @@
+{
+  "kind": "ref",
+  "body_type": "map[string]interface {}",
+  "body": {
+    "attributes": {
+      "infisical_env": "staging",
+      "type": "staging"
+    },
+    "name": "staging"
+  }
+}
