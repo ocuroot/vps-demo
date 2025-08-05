@@ -1,0 +1,147 @@
+{
+  "kind": "ref",
+  "body_type": "release.ReleaseInfo",
+  "body": {
+    "commit": "94ea386f9dfa2748901bfc3026bbbb6b17ae8bfa",
+    "package": {
+      "functions": {
+        "build/release.ocu.star:10:1": {
+          "function": {
+            "name": "build",
+            "pos": "release.ocu.star:10:1"
+          },
+          "graph": [
+            {
+              "from": "",
+              "to": "build",
+              "annotation": "",
+              "delay": ""
+            },
+            {
+              "from": "build",
+              "to": "",
+              "annotation": "",
+              "delay": ""
+            }
+          ]
+        },
+        "down/release.ocu.star:27:1": {
+          "function": {
+            "name": "down",
+            "pos": "release.ocu.star:27:1"
+          },
+          "graph": [
+            {
+              "from": "",
+              "to": "down",
+              "annotation": "",
+              "delay": ""
+            },
+            {
+              "from": "down",
+              "to": "",
+              "annotation": "",
+              "delay": ""
+            }
+          ]
+        },
+        "up/release.ocu.star:20:1": {
+          "function": {
+            "name": "up",
+            "pos": "release.ocu.star:20:1"
+          },
+          "graph": [
+            {
+              "from": "",
+              "to": "up",
+              "annotation": "",
+              "delay": ""
+            },
+            {
+              "from": "up",
+              "to": "",
+              "annotation": "",
+              "delay": ""
+            }
+          ]
+        }
+      },
+      "phases": [
+        {
+          "name": "build",
+          "work": [
+            {
+              "call": {
+                "name": "build",
+                "inputs": {},
+                "fn": {
+                  "name": "build",
+                  "pos": "release.ocu.star:10:1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "staging",
+          "work": [
+            {
+              "deploy": {
+                "environment": "staging",
+                "up": {
+                  "name": "up",
+                  "pos": "release.ocu.star:20:1"
+                },
+                "down": {
+                  "name": "down",
+                  "pos": "release.ocu.star:27:1"
+                },
+                "inputs": {
+                  "environment": {
+                    "ref": "@/environment/staging"
+                  },
+                  "ip": {
+                    "ref": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@/deploy/staging#output/ip"
+                  },
+                  "ssh_private_key_secret": {
+                    "ref": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@/deploy/staging#output/ssh_private_key_secret"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "production",
+          "work": [
+            {
+              "deploy": {
+                "environment": "production",
+                "up": {
+                  "name": "up",
+                  "pos": "release.ocu.star:20:1"
+                },
+                "down": {
+                  "name": "down",
+                  "pos": "release.ocu.star:27:1"
+                },
+                "inputs": {
+                  "environment": {
+                    "ref": "@/environment/production"
+                  },
+                  "ip": {
+                    "ref": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@/deploy/production#output/ip"
+                  },
+                  "ssh_private_key_secret": {
+                    "ref": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@/deploy/production#output/ssh_private_key_secret"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "deployments": null
+    }
+  }
+}
