@@ -1,0 +1,20 @@
+{
+  "kind": "ref",
+  "body_type": "models.Intent",
+  "body": {
+    "type": "",
+    "release": "github.com/ocuroot/vps-demo/-/docker/release.ocu.star/@2cc8531d4d99fce65741ca6eb9b570d5ccc639a9.1",
+    "input": {
+      "environment": {
+        "ref": "@/environment/production",
+        "value": {
+          "attributes": {
+            "infisical_env": "prod",
+            "type": "prod"
+          },
+          "name": "production"
+        }
+      }
+    }
+  }
+}
