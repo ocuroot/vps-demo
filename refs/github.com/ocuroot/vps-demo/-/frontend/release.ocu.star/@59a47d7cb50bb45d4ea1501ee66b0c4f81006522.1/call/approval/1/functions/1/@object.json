@@ -1,0 +1,28 @@
+{
+  "kind": "ref",
+  "body_type": "release.FunctionState",
+  "body": {
+    "current": {
+      "id": "1",
+      "fn": {
+        "name": "noop",
+        "pos": "tasks.ocu.star:48:1"
+      },
+      "status": "pending",
+      "dependencies": [
+        "github.com/ocuroot/vps-demo/-/frontend/release.ocu.star/@59a47d7cb50bb45d4ea1501ee66b0c4f81006522.1/deploy/staging/1/status/complete"
+      ],
+      "inputs": {
+        "approved": {
+          "ref": "github.com/ocuroot/vps-demo/-/frontend/release.ocu.star/@59a47d7cb50bb45d4ea1501ee66b0c4f81006522.1/custom/approved"
+        }
+      }
+    },
+    "history": [
+      {
+        "time": "2025-08-05T14:37:12.034858-04:00",
+        "status": "pending"
+      }
+    ]
+  }
+}

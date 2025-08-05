@@ -1,0 +1,26 @@
+{
+  "kind": "ref",
+  "body_type": "release.FunctionState",
+  "body": {
+    "current": {
+      "id": "1",
+      "fn": {
+        "name": "build",
+        "pos": "tasks.ocu.star:6:1"
+      },
+      "status": "pending",
+      "inputs": {
+        "version": {
+          "ref": "github.com/ocuroot/vps-demo/-/frontend/release.ocu.star/@/call/build#output/version",
+          "default": 0
+        }
+      }
+    },
+    "history": [
+      {
+        "time": "2025-08-05T14:37:11.956883-04:00",
+        "status": "pending"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "ref",
+  "body_type": "models.Work",
+  "body": {
+    "type": "",
+    "release": "github.com/ocuroot/vps-demo/-/frontend/release.ocu.star/@59a47d7cb50bb45d4ea1501ee66b0c4f81006522.1",
+    "entrypoint": "github.com/ocuroot/vps-demo/-/frontend/release.ocu.star/@59a47d7cb50bb45d4ea1501ee66b0c4f81006522.1/deploy/staging/1/functions/1",
+    "output": null
+  }
+}
