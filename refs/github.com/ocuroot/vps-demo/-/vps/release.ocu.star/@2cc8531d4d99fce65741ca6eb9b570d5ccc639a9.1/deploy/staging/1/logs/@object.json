@@ -1,0 +1,1370 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-08-04T23:18:30.814379-04:00",
+      "message": "/opt/homebrew/bin/infisical",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:31.26104-04:00",
+      "message": "/opt/homebrew/bin/terraform",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:31.26769-04:00",
+      "message": "/Users/tom/src/github.com/ocuroot/vps-demo/vps",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:33.036217-04:00",
+      "message": "- Fetching digitalocean/digitalocean 2.36.0 for linux_amd64...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:33.599341-04:00",
+      "message": "- Retrieved digitalocean/digitalocean 2.36.0 for linux_amd64 (signed by a HashiCorp partner, key ID \u001b[0m\u001b[1mF82037E524B9C0E8\u001b[0m\u001b[0m)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:33.756302-04:00",
+      "message": "- Fetching hashicorp/tls 4.1.0 for linux_amd64...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:34.175035-04:00",
+      "message": "- Retrieved hashicorp/tls 4.1.0 for linux_amd64 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:34.328555-04:00",
+      "message": "- Fetching hashicorp/google 6.14.1 for linux_amd64...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:36.066435-04:00",
+      "message": "- Retrieved hashicorp/google 6.14.1 for linux_amd64 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:36.066665-04:00",
+      "message": "- Obtained hashicorp/tls checksums for linux_amd64; All checksums for this platform were already tracked in the lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:36.066977-04:00",
+      "message": "- Obtained hashicorp/google checksums for linux_amd64; All checksums for this platform were already tracked in the lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:36.067186-04:00",
+      "message": "- Obtained digitalocean/digitalocean checksums for linux_amd64; All checksums for this platform were already tracked in the lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:36.067494-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:36.067728-04:00",
+      "message": "\u001b[1m\u001b[32mSuccess!\u001b[0m \u001b[1mTerraform has validated the lock file and found no need for changes.\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:36.10336-04:00",
+      "message": "\u001b[0m\u001b[1mInitializing the backend...\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:36.429861-04:00",
+      "message": "\u001b[0m\u001b[32m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:36.870939-04:00",
+      "message": "Successfully configured the backend \"gcs\"! Terraform will automatically",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:36.871511-04:00",
+      "message": "use this backend unless the backend configuration changes.\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:36.87168-04:00",
+      "message": "\u001b[0m\u001b[1mInitializing provider plugins...\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:36.871805-04:00",
+      "message": "- Reusing previous version of hashicorp/tls from the dependency lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:36.87936-04:00",
+      "message": "- Reusing previous version of digitalocean/digitalocean from the dependency lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:36.961032-04:00",
+      "message": "- Reusing previous version of hashicorp/google from the dependency lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:37.061071-04:00",
+      "message": "- Using previously-installed hashicorp/tls v4.1.0",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:37.074606-04:00",
+      "message": "- Using previously-installed digitalocean/digitalocean v2.36.0",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:37.134524-04:00",
+      "message": "- Using previously-installed hashicorp/google v6.14.1",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:37.134802-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:37.135178-04:00",
+      "message": "\u001b[0m\u001b[1m\u001b[32mTerraform has been successfully initialized!\u001b[0m\u001b[32m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:37.135432-04:00",
+      "message": "\u001b[0m\u001b[32m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:37.135618-04:00",
+      "message": "You may now begin working with Terraform. Try running \"terraform plan\" to see",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:37.13577-04:00",
+      "message": "any changes that are required for your infrastructure. All Terraform commands",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:37.135964-04:00",
+      "message": "should now work.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:37.136144-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:37.136294-04:00",
+      "message": "If you ever set or change modules or backend configuration for Terraform,",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:37.136446-04:00",
+      "message": "rerun this command to reinitialize your working directory. If you forget, other",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:37.136595-04:00",
+      "message": "commands will detect it and remind you to do so if necessary.\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:38.771862-04:00",
+      "message": "\u001b[0m\u001b[1mdata.digitalocean_images.available: Reading...\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.288747-04:00",
+      "message": "\u001b[0m\u001b[1mdata.digitalocean_images.available: Read complete after 1s [id=images/17809237311766652626]\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.388226-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.388369-04:00",
+      "message": "Terraform used the selected providers to generate the following execution",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.388674-04:00",
+      "message": "plan. Resource actions are indicated with the following symbols:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.38884-04:00",
+      "message": "  \u001b[32m+\u001b[0m create\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.388983-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.389178-04:00",
+      "message": "Terraform will perform the following actions:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.389357-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.389521-04:00",
+      "message": "\u001b[1m  # digitalocean_droplet.vps\u001b[0m will be created",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.389664-04:00",
+      "message": "\u001b[0m  \u001b[32m+\u001b[0m\u001b[0m resource \"digitalocean_droplet\" \"vps\" {",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.389809-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m backups              = false",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.389963-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m created_at           = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.390086-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m disk                 = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.390219-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m graceful_shutdown    = false",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.390366-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m id                   = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.39047-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m image                = \"doteamaccount-pocketbase\"",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.39061-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m ipv4_address         = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.390755-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m ipv4_address_private = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.39086-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m ipv6                 = false",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.391007-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m ipv6_address         = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.391142-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m locked               = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.391244-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m memory               = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.391369-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m monitoring           = false",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.391525-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m name                 = \"vps-staging\"",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.39163-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m price_hourly         = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.391775-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m price_monthly        = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.391879-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m private_networking   = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.392032-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m region               = \"nyc2\"",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.392175-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m resize_disk          = true",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.392297-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m size                 = \"s-1vcpu-1gb\"",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.392541-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m ssh_keys             = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.392702-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m status               = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.39286-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m urn                  = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.392998-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m vcpus                = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.393133-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m volume_ids           = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.393305-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m vpc_uuid             = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.393433-04:00",
+      "message": "    }",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.394029-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.394191-04:00",
+      "message": "\u001b[1m  # digitalocean_ssh_key.default\u001b[0m will be created",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.394388-04:00",
+      "message": "\u001b[0m  \u001b[32m+\u001b[0m\u001b[0m resource \"digitalocean_ssh_key\" \"default\" {",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.394504-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m fingerprint = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.394663-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m id          = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.394811-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m name        = \"VPS demo staging\"",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.39494-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m public_key  = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.395054-04:00",
+      "message": "    }",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.395197-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.395307-04:00",
+      "message": "\u001b[1m  # tls_private_key.vps\u001b[0m will be created",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.395464-04:00",
+      "message": "\u001b[0m  \u001b[32m+\u001b[0m\u001b[0m resource \"tls_private_key\" \"vps\" {",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.395573-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m algorithm                     = \"RSA\"",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.395749-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m ecdsa_curve                   = \"P224\"",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.39593-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m id                            = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.396115-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m private_key_openssh           = (sensitive value)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.396262-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m private_key_pem               = (sensitive value)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.396437-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m private_key_pem_pkcs8         = (sensitive value)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.396576-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m public_key_fingerprint_md5    = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.396713-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m public_key_fingerprint_sha256 = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.396868-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m public_key_openssh            = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.396996-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m public_key_pem                = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.397096-04:00",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m rsa_bits                      = 4096",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.397267-04:00",
+      "message": "    }",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.397364-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.397499-04:00",
+      "message": "\u001b[1mPlan:\u001b[0m 3 to add, 0 to change, 0 to destroy.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.397673-04:00",
+      "message": "\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.397819-04:00",
+      "message": "Changes to Outputs:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.397909-04:00",
+      "message": "  \u001b[32m+\u001b[0m\u001b[0m ip          = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.398059-04:00",
+      "message": "  \u001b[32m+\u001b[0m\u001b[0m private_key = (sensitive value)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.398193-04:00",
+      "message": "  \u001b[32m+\u001b[0m\u001b[0m public_key  = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:40.439335-04:00",
+      "message": "\u001b[0m\u001b[1mtls_private_key.vps: Creating...\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:42.599288-04:00",
+      "message": "\u001b[0m\u001b[1mtls_private_key.vps: Creation complete after 3s [id=016b909822e254f818454f40af3e4e249ef6edf3]\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:42.601685-04:00",
+      "message": "\u001b[0m\u001b[1mdigitalocean_ssh_key.default: Creating...\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:43.006441-04:00",
+      "message": "\u001b[0m\u001b[1mdigitalocean_ssh_key.default: Creation complete after 0s [id=49729457]\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:43.034257-04:00",
+      "message": "\u001b[0m\u001b[1mdigitalocean_droplet.vps: Creating...\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:18:53.035972-04:00",
+      "message": "\u001b[0m\u001b[1mdigitalocean_droplet.vps: Still creating... [10s elapsed]\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:19:03.037216-04:00",
+      "message": "\u001b[0m\u001b[1mdigitalocean_droplet.vps: Still creating... [20s elapsed]\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:19:13.038328-04:00",
+      "message": "\u001b[0m\u001b[1mdigitalocean_droplet.vps: Still creating... [30s elapsed]\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:19:14.282981-04:00",
+      "message": "\u001b[0m\u001b[1mdigitalocean_droplet.vps: Creation complete after 31s [id=511755898]\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:19:15.058995-04:00",
+      "message": "\u001b[0m\u001b[1m\u001b[32m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:19:15.059643-04:00",
+      "message": "Apply complete! Resources: 3 added, 0 changed, 0 destroyed.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:19:15.061345-04:00",
+      "message": "\u001b[0m\u001b[0m\u001b[1m\u001b[32m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:19:15.062622-04:00",
+      "message": "Outputs:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:19:15.062813-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:19:15.063772-04:00",
+      "message": "\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:19:15.064247-04:00",
+      "message": "ip = \"192.241.248.130\"",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:19:15.064861-04:00",
+      "message": "private_key = \u003csensitive\u003e",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:19:15.065439-04:00",
+      "message": "public_key = \u003c\u003cEOT",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:19:15.066124-04:00",
+      "message": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDzd/gf2qsdgSs92KVzSneOk/tPvmwRJIqGKRc5ueNwGtZwl9b9ccQbxkFGUwyVP8hMKmUQ0/WavKCwJ/x7UBg5vVvbddEUqK5HoCqv1DvoU6m6Lk97wHbEMq3+ReutlVztShY1U2U6l53SaXndARr5GrqCeuogEDYgIOScC/DuyY1A5LUOW0EPUk368+NZywsKA2zgpWxc1zgfCYc5QDdP8FIyIKJ1Q7VlnKtkhZMjSbKx92r6WxDNCAd/k/qQEiV+d2dAFIhIfXPxxVEBtGcyuHdsbAYdOdA4LC7JrluiFumO8xrPAXrHM+E+R98HMvSgYfn8XEZnXLFuvUiJWnpZkwz+q/kAvVTSnF+3CIzbMAcqPuQjwyt+lCLw9mK3yyBzfcGXQrjvCAamGs3mA/BPM5BQiKub/RfOBfD4iTDgc60M9gmbMjF/8USgw7U5ZGt+HMBzX6zsg9D6r7mf0HoAZ5n76Bi3PBcjuIYaUmq9vMm6iL+7BPUbu4ld39YSYUNqaXDcWOscU7ozvxijO36cTPyjSiIbuTNsa2QXN19os6gFJ50W1TQh2aja91NcgcH+yatz3qcfqRfJ15t8SaVMWjEXiq/cGn4wKeV98CqCYE4YgyePygwbDCpP1kI+nTy/iUHQgi/vYRZm/Yf37TZUvKeG6oeJQUIrHmGcGZKggw==",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:19:15.066499-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-04T23:19:15.066907-04:00",
+      "message": "EOT",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    }
+  ]
+}
