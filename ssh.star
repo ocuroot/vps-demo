@@ -5,13 +5,14 @@ def setup_ssh(hostname, username="root", private_key=None):
         if private_key == None:
             return host.shell("ssh -o StrictHostKeyChecking=accept-new {}@{} \"{}\"".format(username, hostname, cmd), env=env, mute=mute, continue_on_error=continue_on_error)
         else:
+            env["PRIVATE_KEY_CONTENT"] = private_key
             return host.shell(
-                "ssh-agent bash -c 'ssh-add - <<< \"$PRIVATE_KEY_CONTENT\"; ssh -o StrictHostKeyChecking=accept-new {}@{} \"{}\"'".format(
+                    "ssh-agent bash -c 'ssh-add - <<< \"$PRIVATE_KEY_CONTENT\"; ssh -o StrictHostKeyChecking=accept-new {}@{} \"{}\"'".format(
                     username, 
                     hostname, 
                     cmd,
                 ),
-                env={"PRIVATE_KEY_CONTENT": private_key, **env},
+                env=env,
                 mute=mute,
                 continue_on_error=continue_on_error,
             )

@@ -22,7 +22,9 @@ def _deploy(ctx):
     else:
         print("Docker is already installed.")
 
-    result = ssh.exec("docker ps -q -f name=nginx --no-trunc | grep -q .", continue_on_error=True)
+    print("Checking for nginx")
+    result = ssh.exec('docker ps -q -f ancestor=nginx | grep -q .', continue_on_error=True)
+    print(result)
     if result.exit_code != 0:
         # Run nginx
         ssh.exec("docker run -d -p 80:80 nginx")
@@ -39,7 +41,7 @@ def _destroy(ctx):
     priv = infisical.get(secret_name, env=ie)
 
     ssh = setup_ssh(hostname=ctx.inputs.ip, private_key=priv)
-    ssh.exec("docker stop nginx", continue_on_error=True)
+    ssh.exec("docker rm -f $(docker ps -q -f ancestor=nginx)", continue_on_error=True)
     ssh.exec("apt remove docker.io -y", continue_on_error=True)
     return done()
 
