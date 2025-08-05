@@ -2,13 +2,9 @@
   "kind": "ref",
   "body_type": "models.Work",
   "body": {
-    "type": "",
+    "type": "down",
     "release": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@fa56a23554a75a7ab334f841c5f61f952e52930c.2",
-    "entrypoint": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@fa56a23554a75a7ab334f841c5f61f952e52930c.2/deploy/production/1/functions/1",
-    "output": {
-      "ip": "162.243.17.47",
-      "ssh_private_key_secret": "VPS_DEMO_SSH_PRIVATE_KEY",
-      "ssh_public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCkxOIWLNVAvgNfXSOHmB9n7WppHZVXdODFuoKQpMe031Rqx2Jo8aFsqfh6FHXcZ0pul+8FD+2qgmiTJA6lKQog8APAZFmGmAoHAgsmDlUwymqFX9VojAyglZI1ACHftm2T4JgXRfM39P60nfoEAUzNLIbBm0smBV0/HhKKuqKPfxZH2Uxafe79O5gOSsOOYwSgybemty8rB5rhhYaVuXrAHU1I7J6c3hrYBKvM8D6uzzZLGRJEs0qbInT/Oth2GtxZfbJpb6d6bA4PbfQzr1FLF1GSm9vA4QKIHGwvp0tk0mcaHvmyGkgk9gSP4IVxYEEFFM4ToiIKlrBHQEyAY8zy2Rf8xXCpChhL9cvBBL9aTfhULSyjoLX5gU2f84r8trbbyEhE48jPhaCgBwTkYpg/mkBKY6ijf92mvPQGsGW5UT7Si4bZOCCaBvHO9XV8UFe1ulAvXOQUK1w9aSJV2f18GrmUSodUwaV9EW2CTrDm+dHNcYAr86qBzvnqaV92sLUcf59ugWDCzMgkEJIa85ZI2VyOB3a517dn9nZ8NLrAJiS/98c8EsHevZz0++OT6MOxAF4FAbSy8fwBLDWSvyLcfwW+FELGrdD70bx3FBhMTog0gFPXNlRt2kwiVet6lkhZzzd7WtAuDYxV+IRzAXm9uJFGxd8uV6Yyj44C4LoOSw=="
-    }
+    "entrypoint": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@fa56a23554a75a7ab334f841c5f61f952e52930c.2/deploy/production/2/functions/1",
+    "output": {}
   }
 }
