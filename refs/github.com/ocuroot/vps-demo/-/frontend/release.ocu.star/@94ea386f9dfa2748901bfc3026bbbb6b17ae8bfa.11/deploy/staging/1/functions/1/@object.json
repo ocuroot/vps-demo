@@ -1,0 +1,34 @@
+{
+  "kind": "ref",
+  "body_type": "release.FunctionState",
+  "body": {
+    "current": {
+      "id": "1",
+      "fn": {
+        "name": "up",
+        "pos": "tasks.ocu.star:23:1"
+      },
+      "status": "pending",
+      "dependencies": [
+        "github.com/ocuroot/vps-demo/-/frontend/release.ocu.star/@94ea386f9dfa2748901bfc3026bbbb6b17ae8bfa.11/call/build/1/status/complete"
+      ],
+      "inputs": {
+        "environment": {
+          "ref": "@/environment/staging"
+        },
+        "ip": {
+          "ref": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@/deploy/staging#output/ip"
+        },
+        "ssh_private_key_secret": {
+          "ref": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@/deploy/staging#output/ssh_private_key_secret"
+        }
+      }
+    },
+    "history": [
+      {
+        "time": "2025-08-05T14:10:30.299118-04:00",
+        "status": "pending"
+      }
+    ]
+  }
+}
