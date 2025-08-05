@@ -14,8 +14,19 @@ def _deploy(ctx):
     priv = infisical.get(secret_name, env=ie)
 
     ssh = setup_ssh(hostname=ctx.inputs.ip, private_key=priv)
-    ssh.exec("apt update && apt install docker.io -y")
-    ssh.exec("docker run -d -p 80:80 nginx")
+    # Check if docker is already installed
+    result = ssh.exec("which docker", mute=True)
+    if result.returncode == 0:
+        print("Docker is already installed.")
+    else:
+        # Install docker
+        ssh.exec("apt update && apt install docker.io -y")
+
+    result = ssh.exec("docker ps -q -f name=nginx --no-trunc | grep -q .", mute=True)
+    if result.returncode == 0:
+        print("Nginx is currently running.")
+    else:
+        ssh.exec("docker run -d -p 80:80 nginx")
 
     return done()
 
