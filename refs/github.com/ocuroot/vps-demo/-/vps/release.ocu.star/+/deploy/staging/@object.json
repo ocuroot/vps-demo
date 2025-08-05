@@ -3,7 +3,7 @@
   "body_type": "models.Intent",
   "body": {
     "type": "",
-    "release": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@fa56a23554a75a7ab334f841c5f61f952e52930c.1",
+    "release": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@fa56a23554a75a7ab334f841c5f61f952e52930c.2",
     "input": {
       "environment": {
         "ref": "@/environment/staging",
