@@ -1,0 +1,25 @@
+{
+  "kind": "ref",
+  "body_type": "release.FunctionState",
+  "body": {
+    "current": {
+      "id": "1",
+      "fn": {
+        "name": "_destroy",
+        "pos": "release.ocu.star:53:1"
+      },
+      "status": "pending",
+      "inputs": {
+        "environment": {
+          "ref": "@/environment/staging"
+        }
+      }
+    },
+    "history": [
+      {
+        "time": "2025-08-05T16:47:20.987195-04:00",
+        "status": "pending"
+      }
+    ]
+  }
+}
