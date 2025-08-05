@@ -1,0 +1,11 @@
+{
+  "kind": "ref",
+  "body_type": "sdk.Environment",
+  "body": {
+    "name": "staging",
+    "attributes": {
+      "infisical_env": "staging",
+      "type": "staging"
+    }
+  }
+}
