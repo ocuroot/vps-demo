@@ -1,0 +1,28 @@
+{
+  "kind": "ref",
+  "body_type": "release.FunctionState",
+  "body": {
+    "current": {
+      "id": "1",
+      "fn": {
+        "name": "_deploy",
+        "pos": "release.ocu.star:32:1"
+      },
+      "status": "pending",
+      "dependencies": [
+        "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@fa56a23554a75a7ab334f841c5f61f952e52930c.2/call/review/1/status/complete"
+      ],
+      "inputs": {
+        "environment": {
+          "ref": "@/environment/staging"
+        }
+      }
+    },
+    "history": [
+      {
+        "time": "2025-08-04T23:46:15.759472-04:00",
+        "status": "pending"
+      }
+    ]
+  }
+}
