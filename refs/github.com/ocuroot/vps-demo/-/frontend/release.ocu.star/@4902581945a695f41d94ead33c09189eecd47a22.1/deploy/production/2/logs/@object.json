@@ -1,0 +1,72 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-08-05T16:35:54.364899-04:00",
+      "message": "/opt/homebrew/bin/infisical",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "down"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:35:55.913367-04:00",
+      "message": "Identity added: (stdin) ((stdin))",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "down"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:35:56.728094-04:00",
+      "message": "Rules updated",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "down"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:35:56.728239-04:00",
+      "message": "Rules updated (v6)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "down"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:35:56.753934-04:00",
+      "message": "Identity added: (stdin) ((stdin))",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "down"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T16:35:57.114865-04:00",
+      "message": "Identity added: (stdin) ((stdin))",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "down"
+      },
+      "stream": 0
+    }
+  ]
+}
