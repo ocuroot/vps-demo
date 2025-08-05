@@ -3,7 +3,7 @@
   "body_type": "models.Intent",
   "body": {
     "type": "",
-    "release": "github.com/ocuroot/vps-demo/-/docker/release.ocu.star/@fa56a23554a75a7ab334f841c5f61f952e52930c.2",
+    "release": "github.com/ocuroot/vps-demo/-/docker/release.ocu.star/@fa56a23554a75a7ab334f841c5f61f952e52930c.3",
     "input": {
       "environment": {
         "ref": "@/environment/staging",
@@ -17,7 +17,7 @@
       },
       "ip": {
         "ref": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@/deploy/staging#output/ip",
-        "value": "192.241.248.130"
+        "value": "162.243.247.170"
       },
       "ssh_private_key_secret": {
         "ref": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@/deploy/staging#output/ssh_private_key_secret",
