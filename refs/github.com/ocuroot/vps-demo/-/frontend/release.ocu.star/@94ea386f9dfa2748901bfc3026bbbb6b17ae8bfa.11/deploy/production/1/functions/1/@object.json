@@ -14,19 +14,28 @@
       ],
       "inputs": {
         "environment": {
-          "ref": "@/environment/production"
+          "ref": "@/environment/production",
+          "value": {
+            "attributes": {
+              "infisical_env": "prod",
+              "type": "prod"
+            },
+            "name": "production"
+          }
         },
         "ip": {
-          "ref": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@/deploy/production#output/ip"
+          "ref": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@/deploy/production#output/ip",
+          "value": "162.243.17.47"
         },
         "ssh_private_key_secret": {
-          "ref": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@/deploy/production#output/ssh_private_key_secret"
+          "ref": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@/deploy/production#output/ssh_private_key_secret",
+          "value": "VPS_DEMO_SSH_PRIVATE_KEY"
         }
       }
     },
     "history": [
       {
-        "time": "2025-08-05T14:10:30.333498-04:00",
+        "time": "2025-08-05T14:10:57.47539-04:00",
         "status": "pending"
       }
     ]
