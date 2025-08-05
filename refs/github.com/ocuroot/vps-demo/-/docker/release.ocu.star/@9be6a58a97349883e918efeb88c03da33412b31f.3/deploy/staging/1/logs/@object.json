@@ -1,0 +1,171 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-08-05T12:43:22.900227-04:00",
+      "message": "/opt/homebrew/bin/infisical",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:43:25.049833-04:00",
+      "message": "Identity added: (stdin) ((stdin))",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:43:26.033534-04:00",
+      "message": "/usr/bin/docker",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:43:26.033949-04:00",
+      "message": "Docker is already installed.",
+      "attributes": {
+        "col": "14",
+        "filename": "release.ocu.star",
+        "line": "23",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:43:26.034083-04:00",
+      "message": "Checking for nginx",
+      "attributes": {
+        "col": "10",
+        "filename": "release.ocu.star",
+        "line": "25",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:43:26.053075-04:00",
+      "message": "Identity added: (stdin) ((stdin))",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:43:26.4507-04:00",
+      "message": "CONTAINER ID   IMAGE     COMMAND                  CREATED        ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:43:26.46249-04:00",
+      "message": "STATUS        PORTS                               NAMES",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:43:26.462623-04:00",
+      "message": "2547011ec5c0   nginx     \"/docker-entrypoint.…\"   13 hours ago   Up 13 hours   0.0.0.0:80-\u003e80/tcp, :::80-\u003e80/tcp   serene_kapitsa",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:43:26.462983-04:00",
+      "message": "struct(combined_output = \"\", exit_code = 0, stderr = \"Identity added: (stdin) ((stdin))\\n\", stdout = \"CONTAINER ID   IMAGE     COMMAND                  CREATED        STATUS        PORTS                               NAMES\\n2547011ec5c0   nginx     \\\"/docker-entrypoint.…\\\"   13 hours ago   Up 13 hours   0.0.0.0:80-\u003e80/tcp, :::80-\u003e80/tcp   serene_kapitsa\\n\")",
+      "attributes": {
+        "col": "10",
+        "filename": "release.ocu.star",
+        "line": "26",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:43:26.490861-04:00",
+      "message": "Identity added: (stdin) ((stdin))",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:43:26.890483-04:00",
+      "message": "struct(combined_output = \"\", exit_code = 1, stderr = \"Identity added: (stdin) ((stdin))\\n\", stdout = \"\")",
+      "attributes": {
+        "col": "10",
+        "filename": "release.ocu.star",
+        "line": "28",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:43:26.91904-04:00",
+      "message": "Identity added: (stdin) ((stdin))",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:43:27.371531-04:00",
+      "message": "d22f28bb19b31d76c489a65259ededa253a940dd1f3bcdda41c41ccc20428210",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-08-05T12:43:27.454679-04:00",
+      "message": "docker: Error response from daemon: driver failed programming external connectivity on endpoint upbeat_leavitt (f6acc0281de45f7ac95bcc66e89e5b84e102f9a1ea319e0d7035b7fa0ad7ecbe): Bind for 0.0.0.0:80 failed: port is already allocated.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    }
+  ]
+}
