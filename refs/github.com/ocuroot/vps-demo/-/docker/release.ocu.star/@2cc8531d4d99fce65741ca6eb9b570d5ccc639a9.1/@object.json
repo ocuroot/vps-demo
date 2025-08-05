@@ -1,0 +1,106 @@
+{
+  "kind": "ref",
+  "body_type": "release.ReleaseInfo",
+  "body": {
+    "commit": "2cc8531d4d99fce65741ca6eb9b570d5ccc639a9",
+    "package": {
+      "functions": {
+        "_deploy/release.ocu.star:9:1": {
+          "function": {
+            "name": "_deploy",
+            "pos": "release.ocu.star:9:1"
+          },
+          "graph": [
+            {
+              "from": "",
+              "to": "_deploy",
+              "annotation": "",
+              "delay": ""
+            },
+            {
+              "from": "_deploy",
+              "to": "",
+              "annotation": "",
+              "delay": ""
+            }
+          ]
+        },
+        "_destroy/release.ocu.star:21:1": {
+          "function": {
+            "name": "_destroy",
+            "pos": "release.ocu.star:21:1"
+          },
+          "graph": [
+            {
+              "from": "_destroy",
+              "to": "",
+              "annotation": "",
+              "delay": ""
+            },
+            {
+              "from": "",
+              "to": "_destroy",
+              "annotation": "",
+              "delay": ""
+            }
+          ]
+        }
+      },
+      "phases": [
+        {
+          "name": "staging",
+          "work": [
+            {
+              "deploy": {
+                "environment": "staging",
+                "up": {
+                  "name": "_deploy",
+                  "pos": "release.ocu.star:9:1"
+                },
+                "down": {
+                  "name": "_destroy",
+                  "pos": "release.ocu.star:21:1"
+                },
+                "inputs": {
+                  "environment": {
+                    "ref": "@/environment/staging"
+                  },
+                  "ip": {
+                    "ref": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@/deploy/staging#output/ip"
+                  },
+                  "ssh_private_key_secret": {
+                    "ref": "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@/deploy/staging#output/ssh_private_key_secret"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "production",
+          "work": [
+            {
+              "deploy": {
+                "environment": "production",
+                "up": {
+                  "name": "_deploy",
+                  "pos": "release.ocu.star:9:1"
+                },
+                "down": {
+                  "name": "_destroy",
+                  "pos": "release.ocu.star:21:1"
+                },
+                "inputs": {
+                  "environment": {
+                    "ref": "@/environment/production"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "deployments": null
+    }
+  }
+}
