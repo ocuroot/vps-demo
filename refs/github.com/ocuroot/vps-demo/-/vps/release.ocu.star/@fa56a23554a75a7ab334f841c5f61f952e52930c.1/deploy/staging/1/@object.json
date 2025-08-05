@@ -2,8 +2,7 @@
   "kind": "ref",
   "body_type": "models.Work",
   "links": [
-    "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@/deploy/staging",
-    "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@/deploy/staging/1"
+    "github.com/ocuroot/vps-demo/-/vps/release.ocu.star/@/deploy/staging"
   ],
   "body": {
     "type": "",
