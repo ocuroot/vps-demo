@@ -2,11 +2,9 @@
   "kind": "ref",
   "body_type": "models.Work",
   "body": {
-    "type": "",
+    "type": "down",
     "release": "github.com/ocuroot/vps-demo/-/frontend/release.ocu.star/@4902581945a695f41d94ead33c09189eecd47a22.2",
-    "entrypoint": "github.com/ocuroot/vps-demo/-/frontend/release.ocu.star/@4902581945a695f41d94ead33c09189eecd47a22.2/deploy/staging/1/functions/1",
-    "output": {
-      "url": "http://107.170.62.84:8081"
-    }
+    "entrypoint": "github.com/ocuroot/vps-demo/-/frontend/release.ocu.star/@4902581945a695f41d94ead33c09189eecd47a22.2/deploy/staging/2/functions/1",
+    "output": {}
   }
 }

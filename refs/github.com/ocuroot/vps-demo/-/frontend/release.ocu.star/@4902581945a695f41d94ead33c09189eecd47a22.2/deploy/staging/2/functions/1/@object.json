@@ -8,7 +8,7 @@
         "name": "down",
         "pos": "tasks.ocu.star:42:1"
       },
-      "status": "running",
+      "status": "complete",
       "inputs": {
         "environment": {
           "ref": "@/environment/staging",
@@ -32,8 +32,8 @@
     },
     "history": [
       {
-        "time": "2025-08-06T21:46:52.666448-04:00",
-        "status": "running"
+        "time": "2025-08-06T21:46:59.091134-04:00",
+        "status": "complete"
       }
     ]
   }
